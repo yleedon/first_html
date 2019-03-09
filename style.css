@@ -1,0 +1,39 @@
+#menu {
+	position: fixed;
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#menu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#menu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:rgb(126, 215, 221);
+	color:#009;
+}
+
+#menu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+html {
+	scroll-behavior: smooth;	
+	background-image: url("images.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	
+
+}
+#hr {margin:2cm 2cm 2cm 2cm; padding:1cm; border:rgba(119, 4, 4, 0.658);
+border-bottom:4px solid #1a10e7;
+border-bottom-color:rgb(131, 28, 15);}
